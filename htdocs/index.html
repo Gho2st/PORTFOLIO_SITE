@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+  <!--HEADER Z NAGLOWKIEM-->
+
+  <header>
+    <div class="container py-3 mb-4">
+        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
+                <span class="fs-4">Kalkulator Doboru odpowiedniej felgi</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Strona główna</a></li>
+                    <li class="nav-item"><a href="sites/serwis.html" class="nav-link">Serwis</a></li>
+                    <li class="nav-item"><a href="sites/kalkulator.php" class="nav-link">Kalkulator</a></li>
+                    <li class="nav-item"><a href="sites/opinia.html" class="nav-link">Opinie</a></li>
+                    <li class="nav-item"><a href="sites/galeria.html" class="nav-link">Galeria</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+
+
+<!--MAIN I SEKCJE-->
+
+<main>
+  <section class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+          <h1 id="element" class="display-3 fw-bold"> <span class="multiple-text">Kalkulator</span></h1>
+                       
+          <div class="d-flex gap-3 justify-content-center lead fw-normal">
+              <a class="icon-link" href="#">
+                  Czytaj więcej
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+              <a class="icon-link" href="#">
+                  Oblicz
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+          </div>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </section>
+
+  <section class="container marketing">
+      <!-- Twoje sekcje z treścią -->
+      <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Witaj w Kalkulatorze Doboru Odpowiedniej Felgi!</h2>
+            <p class="lead">Czy zastanawiałeś się kiedyś, jaka felga idealnie pasuje do Twojego samochodu? Wybór odpowiedniej felgi nie tylko wpływa na wygląd pojazdu, ale również może mieć istotny wpływ na jego wydajność i komfort jazdy. Nasz kalkulator pomoże Ci dokonać właściwego wyboru, zapewniając optymalne dopasowanie do Twoich potrzeb.</p>
+          </div>
+          <div class="col-md-5">
+            <!-- Zamiast SVG dodaj prawdziwe zdjęcie -->
+            <img src="images/bmw-158703_1280.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Zdjęcie placeholderowe">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Jak to działa? <span class="text-body-secondary">See for yourself.</span></h2>
+            <p class="lead">Wybierz markę i model samochodu: Wybierz z listy lub wpisz markę oraz model swojego samochodu. To pozwoli nam uwzględnić specyficzne parametry pojazdu.
+
+              Wskaż preferowany rozmiar felgi: Możesz podać aktualny rozmiar felgi lub podać preferowany rozmiar, jeśli planujesz zmianę. Nasz kalkulator podpowie Ci, jakie opcje są dostępne.
+              
+              Określ preferowany styl felgi: Wybierz, czy wolisz felgi o klasycznym, sportowym, nowoczesnym czy luksusowym designie. Twój wybór wpłynie na estetykę pojazdu.
+              
+              Podaj swoje oczekiwania: Możesz podać dodatkowe preferencje, np. czy zależy Ci na felgach ze stopów lekkich, optymalnej wytrzymałości czy specjalnych właściwościach aerodynamicznych.
+              
+              Po wprowadzeniu tych informacji, nasz kalkulator dokona analizy i przedstawi Ci najlepiej dopasowane opcje felg do Twojego samochodu. </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="images/car-42552_1280.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Zdjęcie placeholderowe">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Dlaczego warto skorzystać z naszego kalkulatora? <span class="text-body-secondary">Checkmate.</span></h2>
+            <p class="lead">Precyzyjne dopasowanie: Nasz kalkulator uwzględnia specyfikacje Twojego pojazdu, co zapewnia dokładne dopasowanie felg do jego wymagań.
+
+              Wizualizacja: Dzięki wirtualnej wizualizacji zobaczysz, jak wybrane felgi będą prezentować się na Twoim samochodzie, co ułatwi Ci podjęcie decyzji.
+              
+              Wielość opcji: Nasza baza danych zawiera szeroki wybór felg różnych marek, rozmiarów i stylów, abyś miał możliwość wyboru spośród wielu atrakcyjnych opcji.
+              
+              Ekspercka rada: Jeśli potrzebujesz dodatkowych porad lub masz pytania dotyczące wyboru felgi, nasi eksperci są gotowi Ci pomóc.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/sports-car-146873_1280.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Zdjęcie placeholderowe">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+  </section>
+
+</main>
+
+      
+    <!-- FOOTER -->
+    <footer class="text-body-secondary py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
